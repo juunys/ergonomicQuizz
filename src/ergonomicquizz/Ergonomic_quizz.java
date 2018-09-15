@@ -5,6 +5,9 @@
  */
 package ergonomicquizz;
 
+import ergonomicquizz.Login.LoginForm;
+import javax.swing.UIManager;
+
 
 /**
  *
@@ -12,11 +15,10 @@ package ergonomicquizz;
  */
 public class Ergonomic_quizz {
         
-    public static void main(String[] args) {
-            
-       Init i = new Init();
-       i.setTitle("Bem-Vindo(a)!");
-       i.setLocationRelativeTo(null);
-       i.setVisible(true);
+    public static void main(String[] args) {  
+       LoginForm login = new LoginForm();
+       login.setVisible(true);
+       login.setTitle("Bem-Vindo(a)!");
+       login.setLocationRelativeTo(null);
     }
 }
